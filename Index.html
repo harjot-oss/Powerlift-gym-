@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PowerFit Gym — Forge Your Limits</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,600;0,800;1,300&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════ NAV ═══════════════════════════ -->
+  <header id="site-header">
+    <nav class="nav-container">
+      <a href="#home" class="logo">POWER<span>FIT</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#membership">Plans</a></li>
+        <li><a href="#trainers">Trainers</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#testimonials">Reviews</a></li>
+        <li><a href="#contact" class="nav-cta">Join Now</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ═══════════════════════════ HERO ════════════════════════════ -->
+    <section id="home" class="hero">
+      <div class="hero-bg">
+        <div class="hero-grid"></div>
+      </div>
+      <div class="hero-content">
+        <p class="hero-eyebrow">Est. 2010 · Downtown Location</p>
+        <h1 class="hero-headline">
+          Forge<br /><em>Your</em><br />Limits.
+        </h1>
+        <p class="hero-sub">Elite coaching. Industrial equipment. A community that pushes you past what you thought possible.</p>
+        <div class="hero-actions">
+          <a href="#membership" class="btn btn-primary">View Plans</a>
+          <a href="#about" class="btn btn-ghost">Our Story</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><strong>12K+</strong><span>Members</span></div>
+          <div class="stat"><strong>38</strong><span>Expert Trainers</span></div>
+          <div class="stat"><strong>15yr</strong><span>In Business</span></div>
+        </div>
+      </div>
+      <div class="hero-ticker" aria-hidden="true">
+        <div class="ticker-track">
+          <span>STRENGTH</span><span>·</span>
+          <span>ENDURANCE</span><span>·</span>
+          <span>CONDITIONING</span><span>·</span>
+          <span>MOBILITY</span><span>·</span>
+          <span>RECOVERY</span><span>·</span>
+          <span>NUTRITION</span><span>·</span>
+          <span>STRENGTH</span><span>·</span>
+          <span>ENDURANCE</span><span>·</span>
+          <span>CONDITIONING</span><span>·</span>
+          <span>MOBILITY</span><span>·</span>
+          <span>RECOVERY</span><span>·</span>
+          <span>NUTRITION</span><span>·</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════ ABOUT ═══════════════════════════ -->
+    <section id="about" class="section about">
+      <div class="container about-grid">
+        <div class="about-visual" aria-hidden="true">
+          <div class="about-bar-group">
+            <div class="about-bar" style="--h:80%; --delay:0s">Strength</div>
+            <div class="about-bar" style="--h:65%; --delay:.1s">Cardio</div>
+            <div class="about-bar" style="--h:90%; --delay:.2s">Power</div>
+            <div class="about-bar" style="--h:55%; --delay:.3s">Flex</div>
+            <div class="about-bar" style="--h:75%; --delay:.4s">Core</div>
+          </div>
+          <div class="about-badge">
+            <strong>15</strong>
+            <span>Years<br />Forging<br />Champions</span>
+          </div>
+        </div>
+        <div class="about-text reveal">
+          <p class="section-eyebrow">Our Philosophy</p>
+          <h2 class="section-title">We Don't Train Bodies.<br />We Build Athletes.</h2>
+          <p>PowerFit was built in a 4,000 sq ft warehouse with second-hand barbells and one shared vision: create a training environment where ordinary people achieve extraordinary things.</p>
+          <p>Today we span three floors, 28,000 square feet of world-class equipment, and a community of over 12,000 members — from first-timers to competitive powerlifters.</p>
+          <div class="about-pillars">
+            <div class="pillar">
+              <div class="pillar-icon">⚡</div>
+              <strong>Intensity</strong>
+              <p>Every session is designed to push your current ceiling.</p>
+            </div>
+            <div class="pillar">
+              <div class="pillar-icon">🎯</div>
+              <strong>Precision</strong>
+              <p>Science-backed programming, not guesswork.</p>
+            </div>
+            <div class="pillar">
+              <div class="pillar-icon">🔗</div>
+              <strong>Community</strong>
+              <p>The people around you are your strongest piece of equipment.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════ SERVICES ════════════════════════ -->
+    <section id="services" class="section services">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-eyebrow">What We Offer</p>
+          <h2 class="section-title">Train On Your Terms</h2>
+        </div>
+        <div class="services-grid">
+          <article class="service-card reveal" style="--delay:.05s">
+            <div class="service-icon">🏋️</div>
+            <h3>Free Weights Floor</h3>
+            <p>Over 800 sq ft of Olympic platforms, dumbbells to 200 lbs, and dedicated squat racks — no waiting, no compromise.</p>
+          </article>
+          <article class="service-card reveal" style="--delay:.1s">
+            <div class="service-icon">🚴</div>
+            <h3>Cardio & HIIT</h3>
+            <p>60+ cardio machines, dedicated HIIT studios, and daily high-intensity group classes that redefine what "hard" means.</p>
+          </article>
+          <article class="service-card reveal" style="--delay:.15s">
+            <div class="service-icon">🥊</div>
+            <h3>Boxing & MMA</h3>
+            <p>A full-size ring, heavy bags, and coaches who've trained professional fighters. The most underrated cardio you'll ever do.</p>
+          </article>
+          <article class="service-card reveal" style="--delay:.2s">
+            <div class="service-icon">🧘</div>
+            <h3>Recovery Studio</h3>
+            <p>Contrast therapy, compression boots, massage guns, and guided mobility sessions. Recovery is training.</p>
+          </article>
+          <article class="service-card reveal" style="--delay:.25s">
+            <div class="service-icon">🍎</div>
+            <h3>Nutrition Coaching</h3>
+            <p>Registered dietitians and certified nutrition coaches who build plans around real life, not Instagram perfection.</p>
+          </article>
+          <article class="service-card reveal" style="--delay:.3s">
+            <div class="service-icon">👤</div>
+            <h3>Personal Training</h3>
+            <p>1-on-1 sessions with certified coaches who specialize in your goal — strength, fat loss, athletic performance, or longevity.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════ MEMBERSHIP ══════════════════════ -->
+    <section id="membership" class="section membership">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-eyebrow">Pricing</p>
+          <h2 class="section-title">Pick Your Level</h2>
+          <p class="section-sub">All plans include unlimited group classes and locker room access. No contracts. Cancel anytime.</p>
+        </div>
+        <div class="plans-grid">
+          <article class="plan-card reveal" style="--delay:.05s">
+            <div class="plan-tier">Starter</div>
+            <div class="plan-price"><sup>$</sup>39<sub>/mo</sub></div>
+            <ul class="plan-features">
+              <li>✓ Full gym floor access</li>
+              <li>✓ 5 group classes / month</li>
+              <li>✓ Locker room &amp; showers</li>
+              <li>✓ App &amp; workout tracking</li>
+              <li class="muted">✗ Recovery studio</li>
+              <li class="muted">✗ Nutrition coaching</li>
+              <li class="muted">✗ Personal training sessions</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline">Get Started</a>
+          </article>
+          <article class="plan-card plan-featured reveal" style="--delay:.1s">
+            <div class="plan-badge">Most Popular</div>
+            <div class="plan-tier">Elite</div>
+            <div class="plan-price"><sup>$</sup>79<sub>/mo</sub></div>
+            <ul class="plan-features">
+              <li>✓ Full gym floor access</li>
+              <li>✓ Unlimited group classes</li>
+              <li>✓ Locker room &amp; showers</li>
+              <li>✓ App &amp; workout tracking</li>
+              <li>✓ Recovery studio access</li>
+              <li>✓ Monthly nutrition check-in</li>
+              <li class="muted">✗ Personal training sessions</li>
+            </ul>
+            <a href="#contact" class="btn btn-primary">Get Started</a>
+          </article>
+          <article class="plan-card reveal" style="--delay:.15s">
+            <div class="plan-tier">Pro</div>
+            <div class="plan-price"><sup>$</sup>149<sub>/mo</sub></div>
+            <ul class="plan-features">
+              <li>✓ Full gym floor access</li>
+              <li>✓ Unlimited group classes</li>
+              <li>✓ Locker room &amp; showers</li>
+              <li>✓ App &amp; workout tracking</li>
+              <li>✓ Unlimited recovery studio</li>
+              <li>✓ Weekly nutrition coaching</li>
+              <li>✓ 4 PT sessions / month</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline">Get Started</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════ TRAINERS ════════════════════════ -->
+    <section id="trainers" class="section trainers">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-eyebrow">The Coaches</p>
+          <h2 class="section-title">Trained to Train You</h2>
+        </div>
+        <div class="trainers-grid">
+          <article class="trainer-card reveal" style="--delay:.05s">
+            <div class="trainer-photo tp-1">
+              <div class="trainer-overlay">
+                <p>"Consistency beats intensity every single time."</p>
+              </div>
+            </div>
+            <div class="trainer-info">
+              <h3>Marcus Rivera</h3>
+              <p class="trainer-spec">Strength & Powerlifting</p>
+              <div class="trainer-creds">
+                <span>NSCA-CSCS</span><span>10yr Exp</span>
+              </div>
+            </div>
+          </article>
+          <article class="trainer-card reveal" style="--delay:.1s">
+            <div class="trainer-photo tp-2">
+              <div class="trainer-overlay">
+                <p>"Your mind quits before your body does. I fix that."</p>
+              </div>
+            </div>
+            <div class="trainer-info">
+              <h3>Aisha Okonkwo</h3>
+              <p class="trainer-spec">HIIT & Athletic Conditioning</p>
+              <div class="trainer-creds">
+                <span>NASM-CPT</span><span>8yr Exp</span>
+              </div>
+            </div>
+          </article>
+          <article class="trainer-card reveal" style="--delay:.15s">
+            <div class="trainer-photo tp-3">
+              <div class="trainer-overlay">
+                <p>"Mobility is the secret weapon no one talks about."</p>
+              </div>
+            </div>
+            <div class="trainer-info">
+              <h3>Jordan Lee</h3>
+              <p class="trainer-spec">Mobility & Recovery</p>
+              <div class="trainer-creds">
+                <span>FMS Certified</span><span>7yr Exp</span>
+              </div>
+            </div>
+          </article>
+          <article class="trainer-card reveal" style="--delay:.2s">
+            <div class="trainer-photo tp-4">
+              <div class="trainer-overlay">
+                <p>"Boxing will build you, inside and outside the ring."</p>
+              </div>
+            </div>
+            <div class="trainer-info">
+              <h3>Dani Vasquez</h3>
+              <p class="trainer-spec">Boxing & MMA Conditioning</p>
+              <div class="trainer-creds">
+                <span>USA Boxing</span><span>12yr Exp</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════ GALLERY ═════════════════════════ -->
+    <section id="gallery" class="section gallery">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-eyebrow">Inside PowerFit</p>
+          <h2 class="section-title">The Floor</h2>
+        </div>
+        <div class="gallery-grid reveal">
+          <div class="gallery-item gi-1"><span>Free Weights</span></div>
+          <div class="gallery-item gi-2"><span>HIIT Studio</span></div>
+          <div class="gallery-item gi-3"><span>Boxing Ring</span></div>
+          <div class="gallery-item gi-4"><span>Recovery Zone</span></div>
+          <div class="gallery-item gi-5"><span>Cardio Floor</span></div>
+          <div class="gallery-item gi-6"><span>Squat Racks</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════ TESTIMONIALS ════════════════════ -->
+    <section id="testimonials" class="section testimonials">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-eyebrow">Member Stories</p>
+          <h2 class="section-title">Real People. Real Results.</h2>
+        </div>
+        <div class="testimonials-carousel">
+          <div class="testimonials-track" id="testimonialsTrack">
+            <blockquote class="testimonial-card">
+              <div class="stars" aria-label="5 stars">★★★★★</div>
+              <p>"I've been to six different gyms in this city. PowerFit isn't a gym — it's a culture. I hit my first 315 lb squat three months after joining. Marcus programmed every rep."</p>
+              <footer>
+                <div class="avatar av-1"></div>
+                <div>
+                  <strong>Tom B.</strong>
+                  <span>Member since 2022</span>
+                </div>
+              </footer>
+            </blockquote>
+            <blockquote class="testimonial-card">
+              <div class="stars" aria-label="5 stars">★★★★★</div>
+              <p>"Aisha's HIIT class at 6 AM is absolutely savage and completely addictive. I've lost 22 lbs in 4 months without counting a single calorie. The nutrition coaching sealed the deal."</p>
+              <footer>
+                <div class="avatar av-2"></div>
+                <div>
+                  <strong>Priya M.</strong>
+                  <span>Member since 2023</span>
+                </div>
+              </footer>
+            </blockquote>
+            <blockquote class="testimonial-card">
+              <div class="stars" aria-label="5 stars">★★★★★</div>
+              <p>"I came in recovering from a back injury. Jordan built me a mobility program that had me deadlifting again in 6 weeks. I didn't just recover — I got stronger than before."</p>
+              <footer>
+                <div class="avatar av-3"></div>
+                <div>
+                  <strong>Chris D.</strong>
+                  <span>Member since 2021</span>
+                </div>
+              </footer>
+            </blockquote>
+            <blockquote class="testimonial-card">
+              <div class="stars" aria-label="5 stars">★★★★★</div>
+              <p>"The equipment alone is worth the membership. But it's the community that keeps me coming back. I've made more genuine friends here than anywhere else in my adult life."</p>
+              <footer>
+                <div class="avatar av-4"></div>
+                <div>
+                  <strong>Samira K.</strong>
+                  <span>Member since 2020</span>
+                </div>
+              </footer>
+            </blockquote>
+          </div>
+          <div class="carousel-controls">
+            <button class="carousel-btn" id="prevBtn" aria-label="Previous">&#8592;</button>
+            <div class="carousel-dots" id="carouselDots"></div>
+            <button class="carousel-btn" id="nextBtn" aria-label="Next">&#8594;</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════ CONTACT ═════════════════════════ -->
+    <section id="contact" class="section contact">
+      <div class="container contact-grid">
+        <div class="contact-info reveal">
+          <p class="section-eyebrow">Get In Touch</p>
+          <h2 class="section-title">Start Your First Week Free.</h2>
+          <p>Fill out the form and a coach will reach out within 24 hours to schedule your free tour and introductory session.</p>
+          <ul class="contact-details">
+            <li>
+              <span class="contact-icon">📍</span>
+              <div><strong>Location</strong><span>412 Industrial Ave, Suite 100</span></div>
+            </li>
+            <li>
+              <span class="contact-icon">🕐</span>
+              <div><strong>Hours</strong><span>Mon–Fri 5 AM – 11 PM · Sat–Sun 6 AM – 9 PM</span></div>
+            </li>
+            <li>
+              <span class="contact-icon">📞</span>
+              <div><strong>Phone</strong><span>(555) 820-4100</span></div>
+            </li>
+            <li>
+              <span class="contact-icon">✉️</span>
+              <div><strong>Email</strong><span>hello@powerfitgym.com</span></div>
+            </li>
+          </ul>
+        </div>
+        <div class="contact-form-wrap reveal" style="--delay:.1s">
+          <form id="contactForm" class="contact-form" novalidate>
+            <div class="form-row">
+              <div class="field">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="firstName" placeholder="Marcus" autocomplete="given-name" />
+                <span class="field-error" id="firstNameErr"></span>
+              </div>
+              <div class="field">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="lastName" placeholder="Rivera" autocomplete="family-name" />
+                <span class="field-error" id="lastNameErr"></span>
+              </div>
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="you@email.com" autocomplete="email" />
+              <span class="field-error" id="emailErr"></span>
+            </div>
+            <div class="field">
+              <label for="phone">Phone (optional)</label>
+              <input type="tel" id="phone" name="phone" placeholder="(555) 000-0000" autocomplete="tel" />
+            </div>
+            <div class="field">
+              <label for="goal">Primary Goal</label>
+              <select id="goal" name="goal">
+                <option value="">— Select your goal —</option>
+                <option value="strength">Build Strength</option>
+                <option value="fatloss">Lose Body Fat</option>
+                <option value="athletic">Athletic Performance</option>
+                <option value="general">General Fitness</option>
+                <option value="recovery">Injury Recovery</option>
+              </select>
+              <span class="field-error" id="goalErr"></span>
+            </div>
+            <div class="field">
+              <label for="message">Anything else? (optional)</label>
+              <textarea id="message" name="message" rows="4" placeholder="Tell us about your experience level, schedule, or anything that helps us prepare for your visit…"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">Claim My Free Week →</button>
+            <div id="formSuccess" class="form-success" hidden>
+              <span>🎉</span> We've got your info — a coach will be in touch within 24 hours. Welcome to PowerFit.
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════════════════════ FOOTER ══════════════════════════ -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="logo">POWER<span>FIT</span></a>
+        <p>Building stronger bodies and sharper minds since 2010.</p>
+      </div>
+      <div class="footer-links">
+        <strong>Explore</strong>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#membership">Membership</a></li>
+          <li><a href="#trainers">Trainers</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <strong>Connect</strong>
+        <ul>
+          <li><a href="#contact">Contact Us</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">YouTube</a></li>
+          <li><a href="#">Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 PowerFit Gym. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <a href="#home" class="back-to-top" id="backToTop" aria-label="Back to top">↑</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
